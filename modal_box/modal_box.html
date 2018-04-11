@@ -1,0 +1,21 @@
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" id="close">&times;</span>
+            <article class="modal-article">Регистрация</article>
+        </div>
+        <form id="form-reg" name="form-reg" method="post" onsubmit="return validateReg()">
+            <div class="reg">
+                <div class="modal-body">
+                    <div class="modal-input">
+                        <input type="text" class="user" id="e-mail" name="e-mail-reg" placeholder="E-mail" autocomplete="off">
+                        <input type="text" class="user" id="userLogin" name="login-reg" placeholder="Логин" autocomplete="off">
+                        <input type="password" class="user" id="userPassword" name="password-reg" placeholder="Пароль" autocomplete="off">
+                        <input type="password" class="user" id="userConfirmPassword" name="confirm-password-reg" placeholder="Повторите пароль" autocomplete="off">
+                    </div>
+                </div>
+                <input type="button" class="regBtn" id="regBtn" value="ОК" onclick="submitReg()">
+            </div>
+        </form>
+    </div>
+</div>

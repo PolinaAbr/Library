@@ -1,0 +1,18 @@
+.background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    background-color: white;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+#backgroundIMG {
+    background: url(../img/books.png);
+    background-size: contain;
+}

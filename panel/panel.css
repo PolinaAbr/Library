@@ -1,0 +1,93 @@
+.input-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.fa{
+    position: absolute;
+    color: #2b1b18;
+    opacity: 0.8;
+    cursor: pointer;
+    top: 35px;
+}
+
+.fa-search{
+    left: 40px;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.input-text{
+    height: 30px;
+    width: 200px;
+    border: none;
+    background-color: #2b1b18;
+    opacity: 0.75;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Book Antiqua", serif;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.search{
+    position: absolute;
+    left: 100px;
+    top: 45px;
+}
+
+#sign-in-icon{
+    right: 40px;
+    visibility: visible;
+}
+
+#sign-out-icon{
+    right: 40px;
+    visibility: hidden;
+}
+
+.sign-in{
+    display: grid;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    text-align: center;
+    visibility: visible;
+}
+
+.login, .password{
+    float: right;
+    margin-bottom: 5px;
+}
+
+.register {
+    cursor: pointer;
+    color: #523d3a;
+    font-size: 20px;
+    font-family: "Book Antiqua", sans-serif;
+    font-weight: bolder;
+}
+
+#user{
+    visibility: hidden;
+}
+
+.user-icon{
+    right: 170px;
+    top: 20px;
+}
+
+.user-name{
+    width: 160px;
+    margin-top: 20px;
+}

@@ -1,0 +1,42 @@
+.menu{
+    width: 100%;
+    opacity: 0.8;
+    margin: 20px auto;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.main-menu{
+    width: 50%;
+}
+
+.section{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(43, 27, 24, 0.91);
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: rgb(43, 27, 24);
+    font-weight: 900;
+    font-size: 18px;
+    font-family: "Book Antiqua", sans-serif;
+    text-decoration: none;
+}
+
+.section:hover{
+    cursor: pointer;
+    background: rgba(43, 27, 24, 0.91);
+    color: white;
+    font-weight: 300;
+}
+
+.active{
+    background: rgba(43, 27, 24, 0.91);
+    color: white;
+    font-weight: 300;
+}

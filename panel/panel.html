@@ -1,0 +1,21 @@
+<div class="input-block">
+    <form  id="form-search" name="form-search" method="post" action="search-result.php">
+        <i class="fa fa-search fa-3x icon" aria-hidden="true" onclick="submitSearch()"></i>
+        <input type="text" class="input-text search" id="search" name="search" placeholder="Поиск" autocomplete="off">
+    </form>
+    <form  id="form-auth" name="form-auth" method="post" onsubmit="return validateLogin()">
+        <i class="fa fa-sign-in fa-3x icon" id="sign-in-icon" aria-hidden="true" onclick="submitLogin()"></i>
+        <a href="index.php?action=logout"><i class="fa fa-sign-out fa-3x icon" id="sign-out-icon" aria-hidden="true" onclick=""></i></a>
+        <div class="sign-in" id="sign-in">
+            <input type="text" class="input-text login" id="login" name="login" placeholder="Логин" autocomplete="off">
+            <input type="password" class="input-text password" id="password" name="password" placeholder="Пароль">
+            <article class="register" id="register">Регистрация</article>
+        </div>
+    </form>
+    <div class="sign-in" id="user">
+        <a href="user.php">
+            <i class="fa fa-user-circle fa-2x user-icon" aria-hidden="true"></i>
+            <input type="text" class="input-text user-name" id="user-name" readonly>
+        </a>
+    </div>
+</div>

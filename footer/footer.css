@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #2b1b18;
+    opacity: 0.8;
+    margin: 20px 0 0 0;
+    bottom: 0;
+}
+
+.author{
+    font-size: 22px;
+    color: white;
+}
+
+.copyright{
+    position: static;
+    color: white;
+    cursor: text;
+    opacity: 0.99;
+}

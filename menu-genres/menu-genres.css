@@ -1,0 +1,10 @@
+.menu-genres{
+    margin-top: 50px;
+    /*border-bottom: 2px solid rgba(43, 27, 24, 0.91);*/
+    /*border-top: 2px solid rgba(43, 27, 24, 0.91);*/
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1.5%;
+    width: 98.5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}

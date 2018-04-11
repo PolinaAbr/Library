@@ -1,0 +1,45 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#imgLogo {
+    background: url(../img/logo.png) no-repeat;
+    background-size: contain;
+    opacity: 0.75;
+    width: 70%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.start {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid rgba(43, 27, 24, 0.91);
+    font-weight: 900;
+    font-size: 18px;
+    font-family: "Book Antiqua", sans-serif;
+    color: rgba(43, 27, 24, 0.91);
+    outline: none;
+    top: 85%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.start:hover {
+    background: rgba(43, 27, 24, 0.81);
+    color: #d7d7d7;
+    font-weight: 500;
+    border: none;
+}

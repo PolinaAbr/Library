@@ -1,0 +1,82 @@
+.add-comment{
+    width: 100%;
+}
+
+.user-comment{
+    width: 95.5%;
+    margin-left: 2%;
+    margin-right: 2.5%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(43, 27, 24);
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "Book Antiqua", sans-serif;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.user-info{
+    width: 100%;
+    font-size: 18px;
+}
+
+.datetime{
+    float: right;
+}
+
+.comment-text{
+    border-top: 2px solid rgb(43, 27, 24);
+    margin-top: 5px;
+    padding-top: 5px;
+}
+
+.comments-none{
+    font-size: 20px;
+}
+
+#add-comment{
+    display: none;
+}
+
+.comment{
+    width: 95.5%;
+    height: 200px;
+    margin-left: 2%;
+    /*margin-right: 2.5%;*/
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(43, 27, 24, 0.9);
+    color: rgb(43, 27, 24);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Book Antiqua", sans-serif;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: justify;
+}
+
+.comment:focus{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-comment{
+    float: right;
+    margin-right: 2.5%;
+    width: 130px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(43, 27, 24, 0.91);
+    border-radius: 10px;
+    color: rgb(43, 27, 24);
+    font-weight: 900;
+    font-size: 16px;
+    font-family: "Book Antiqua", sans-serif;
+}
+
+.btn-comment:hover{
+    cursor: pointer;
+    background: rgba(43, 27, 24, 0.91);
+    color: white;
+    font-weight: 300;
+}

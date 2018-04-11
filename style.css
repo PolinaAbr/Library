@@ -1,0 +1,34 @@
+@import "background/background.css";
+@import "panel/panel.css";
+@import "menu/menu.css";
+@import "modal_box/modal_box.css";
+@import "start_page/start_page.css";
+@import "menu-genres/menu-genres.css";
+@import "books-list/books-list.css";
+@import "book-description/book-description.css";
+@import "authors-list/authors-list.css";
+@import "comments/comments.css";
+@import "footer/footer.css";
+
+body{
+    margin: 0;
+    font-family: "Book Antiqua", sans-serif;
+}
+
+.search-result{
+    width: 101%;
+    height: 65px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(43, 27, 24);
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Book Antiqua", sans-serif;
+    margin-left: -1%;
+}
+
+.search-text{
+    margin-left: 40px;
+}
